@@ -1,4 +1,4 @@
 SELECT * FROM Employee
 WHERE NOT SALARY < 1700
-AND NOT LOCATION = 'Atlanta'
-OR NOT LOCATION = 'Nashville';
+AND LOCATION = 'Atlanta'
+OR LOCATION = 'Nashville';
