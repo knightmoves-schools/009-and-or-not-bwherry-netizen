@@ -1,4 +1,4 @@
 SELECT * FROM Employee
-WHERE SALERY < 1700
+WHERE SALARY < 1700
 AND LOCATION = "Atlanta" 
 OR LOCATION = "Nashville";
